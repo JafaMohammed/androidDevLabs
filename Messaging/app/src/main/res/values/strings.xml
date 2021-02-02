@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Messaging</string>
+    <string name="enter_your_message_here">Enter your message here</string>
+    <string name="send">SEND</string>
+    <string name="enter_your_reponse_here">Enter your Message Here</string>
+    <string name="message_received">Message Received</string>
+    <string name="message">message</string>
+    <string name="reply">REPLY</string>
+</resources>

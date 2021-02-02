@@ -1,0 +1,19 @@
+<resources>
+<string name="app_name">registrationPage</string>
+<string name="enter_first_name">enter_first_name</string>
+<string name="enter_surname">Enter_surname</string>
+<string name="sign_up">Sign Up</string>
+<string name="enter_Surname">Enter Surname</string>
+<string name="enter_email_address">Enter Email Address</string>
+<string name="enter_date_of_birth">Enter date of birth</string>
+<string name="enter_phone_number">Enter Phone Number</string>
+<string name="accept_terms_and_conditions">Accept terms and conditions</string>
+<string name="confirm_password">Confirm Password</string>
+<string name="company_logo">company logo</string>
+    <string-array name="spinner_label">
+<item> Home </item>
+<item> Work </item>
+<item> Mobile </item>
+<item> Other </item>
+</string-array>
+    </resources>

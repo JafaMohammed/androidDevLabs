@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="dessert_recipes">Dessert Recipes</string>
+    <string name="browse_recipes">Browse Recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_cook_time_2hrs"><![CDATA[Prep & Cook Time: 2hrs]]></string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_donuts">How to prepare donuts</string>
+    <string name="pastry_recipes">Pastry Recipes</string>
+    <string name="our_stores">Our Stores</string>
+    <string name="share_button_label">Share</string>
+
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+    </array>
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+    </string-array>
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+    </string-array>
+
+    <array name="pastry_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/ics</item>
+    </array>
+    <string-array name="pastry_titles">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+    </string-array>
+    <string-array name="pastry_descriptions">
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+        <item>Donuts are glazed and sprinkled with candy!</item>
+        <item>Froyo is a premium self-service frozen yogurt</item>
+        <item>Ice Cream Sandwiches have chocolate and vanilla filling</item>
+    </string-array>
+
+    <array name="stores_images">
+        <item>@drawable/store1</item>
+        <item>@drawable/store2</item>
+        <item>@drawable/store3</item>
+        <item>@drawable/store1</item>
+        <item>@drawable/store2</item>
+        <item>@drawable/store3</item>
+        <item>@drawable/store1</item>
+        <item>@drawable/store2</item>
+        <item>@drawable/store3</item>
+    </array>
+    <string-array name="store_location">
+        <item>Boston Barista</item>
+        <item>Chicago Mocha</item>
+        <item>Expresso</item>
+        <item>Boston Barista</item>
+        <item>Chicago Mocha</item>
+        <item>Expresso</item>
+        <item>Boston Barista</item>
+        <item>Chicago Mocha</item>
+        <item>Expresso</item>
+    </string-array>
+        <string-array name="stores_description">
+            <item>Enjoy the ambiance of Boston Barista! Conviniently in the heart of Boston city to enjoy a coffee after studies with family and friends. Read more...</item>
+            <item>Beautifully bright nd open , this Chicago Mocha comes to life with its funky designs and cool movie posters dotted along the walls. Read more...</item>
+            <item>Located in the heart of lower Manhattan, Expresso is a small santuary from the busy world outside, with intimate seating and cosy corners. Read more...</item>
+            <item>Enjoy the ambiance of Boston Barista! Conviniently in the heart of Boston city to enjoy a coffee after studies with family and friends. Read more...</item>
+            <item>Beautifully bright nd open , this Chicago Mocha comes to life with its funky designs and cool movie posters dotted along the walls. Read more...</item>
+            <item>Located in the heart of lower Manhattan, Expresso is a small santuary from the busy world outside, with intimate seating and cosy corners. Read more...</item>
+            <item>Enjoy the ambiance of Boston Barista! Conviniently in the heart of Boston city to enjoy a coffee after studies with family and friends. Read more...</item>
+            <item>Beautifully bright nd open , this Chicago Mocha comes to life with its funky designs and cool movie posters dotted along the walls. Read more...</item>
+            <item>Located in the heart of lower Manhattan, Expresso is a small santuary from the busy world outside, with intimate seating and cosy corners. Read more...</item>
+        </string-array>
+</resources>

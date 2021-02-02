@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/company_logo"
+
+        />
+
+
+    <TextView
+        android:id="@id/sign_up"
+        android:layout_below="@id/company_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up"
+        android:hint="Enter Firstname"
+        android:textColorHint="@android:color/black"
+        android:inputType="textCapSentences"
+        android:drawableStart="@drawable/ic_account_box_black"
+        />
+
+    <EditText
+
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/enter_Surname"
+        android:inputType="textCapSentences"
+        android:textColorHint="@android:color/black"
+        android:drawableStart="@drawable/ic_account_box_black"
+        />
+
+    <EditText
+
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_name"
+        android:drawableStart="@drawable/ic_email_black"
+        android:hint="@string/enter_email_address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailAddress"
+        android:ems="10"
+        android:hint="@string/enter_date_of_birth"
+        android:textColorHint="@android:color/black"
+        android:drawableStart="@drawable/ic_date_range_black"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthday"
+        android:ems="10"
+        android:hint="@string/enter_phone_number"
+        android:textColorHint="@android:color/black"
+        android:inputType="phone"
+        android:drawableStart="@drawable/ic_contact_phone_black"
+
+        />
+
+    <Spinner
+        android:id="@+id/phone_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/birthday"
+        android:layout_toEndOf="@id/phone"
+        android:backgroundTint="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:ems="10"
+        android:layout_below="@id/phone"
+        android:drawableStart="@drawable/ic_security_black"
+
+        />
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:drawableStart="@drawable/ic_security_black"
+        android:layout_below="@id/phone"
+        android:layout_alignParentEnd="true"
+        />
+
+    <CheckBox
+        android:id="@+id/conditions"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="@string/accept_terms_and_conditions"
+        android:checked="true"
+        android:textColor="@android:color/black"
+        android:onClick="showToast"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conditions"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:onClick="createAccount"
+        />
+
+
+</RelativeLayout>
